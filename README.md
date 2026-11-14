@@ -1,5 +1,9 @@
 # singbox-clash-api
 
+Tested on version **1.14.4** of `sing-box`.
+
+The code is substantially generated `claude.ai`.
+
 Async Rust client for the Clash-compatible REST API of [sing-box](https://sing-box.sagernet.org/)
 (`experimental.clash_api`).
 
@@ -14,7 +18,7 @@ Async Rust client for the Clash-compatible REST API of [sing-box](https://sing-b
 
 ```toml
 [dependencies]
-singbox-clash-api = "0.1"
+singbox-clash-api = { git = "https://github.com/nlkli/singbox-clash-api.git" }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 ```
 
